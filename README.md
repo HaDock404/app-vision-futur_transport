@@ -32,7 +32,7 @@ pip install -r ./packages/requirements.txt
 You can't use my training model because of Github storage. But if you train your own model you can install and use my repository like this.  
 
 ```bash
-live-server
+uvicorn main:app --reload
 ```  
 
 ## Contributing
