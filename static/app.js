@@ -9,8 +9,7 @@ function uploadAndProcess() {
 
     var formData = new FormData();
     formData.append('file', file);
-
-    fetch('http://127.0.0.1:8000/mask_image', {
+    fetch('https://5fcc-194-5-53-100.ngrok-free.app/mask_image', {
         method: 'POST',
         headers: {
             'accept': 'image/*'
